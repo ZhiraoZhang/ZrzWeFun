@@ -1,0 +1,10 @@
+<!--index.wxml-->
+<view class="container">
+<view>WeFun微放</view>
+  <view class='section tc'>
+    <video src="{{src}}"></video>
+    <view class='btn-area'>
+      <button bindtap='bindButtonTap'>播放视频</button>
+    </view>
+  </view>
+</view>
